@@ -37,19 +37,19 @@
 
     it("age in saturn years", function() {
       var age = new SpaceAge(3000000000);
-      expect(age.onEarth()).toEqual(95.06);
+      expect(age.onEarth()).toEqual(95.07);
       expect(age.onSaturn()).toEqual(3.23);
     });
 
     it("age in uranus years", function() {
       var age = new SpaceAge(3210123456);
-      expect(age.onEarth()).toEqual(101.72);
+      expect(age.onEarth()).toEqual(101.73);
       expect(age.onUranus()).toEqual(1.21);
     });
 
     it("age in neptune year", function() {
       var age = new SpaceAge(8210123456);
-      expect(age.onEarth()).toEqual(260.16);
+      expect(age.onEarth()).toEqual(260.18);
       expect(age.onNeptune()).toEqual(1.58);
     });
   });
